@@ -22,6 +22,7 @@ body{
     width: 22%;
     padding: 25px;
     border-radius: 20px;
+    margin-top: 70px;
 
 }
 
@@ -33,12 +34,12 @@ body{
 
 
 .equilibrium-text{
-    color: white;
+    color: hsl(0, 0%, 100%);
     padding-bottom: 10px;
 }
 
 .description{
-    color: hsl(215, 51%, 70%)
+    color: hsl(215, 51%, 70%);
 }
 
 .ethereum-clock-icon{
@@ -46,14 +47,42 @@ body{
     justify-content: space-between;
 }
 
-.itself{
-    display: flex;
-    justify-content: space-between;
+.eth{
+    color: hsl(178, 100%, 50%);
 }
 
-.icon-image{
-    padding-bottom: 2px;
+.clock{
+    color: hsl(215, 51%, 70%);
+}
+
+
+
+.itself{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 20px;
+}
+
+.eth, .clock{
+    display: flex;
+    align-items: center;
+}
+.divider{
+    border:1px solid hsl(215, 51%, 70%);
 }
 
 .avatar-image{
+   width: 35px;
+   border: 2px solid hsl(0, 0%, 100%);
+   border-radius: 50%;
+}
+
+.creation{
+    color: hsl(215, 51%, 70%);
+    margin-left: -7px;
+}
+
+.jules{
+    color: hsl(0, 0%, 100%);
 }
